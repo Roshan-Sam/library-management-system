@@ -1,0 +1,78 @@
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background: none;
+  color: inherit;
+}
+
+.react-calendar__tile--active {
+  background: none;
+  color: inherit;
+}
+
+.react-calendar__tile.highlight-rental-date {
+  background-color: #5755fe;
+  color: white;
+  border-radius: 5px;
+}
+
+.react-calendar__tile.highlight-due-date {
+  background-color: #e72929;
+  color: white;
+  border-radius: 5px;
+}
+
+.react-calendar__tile.highlight-rental-date:hover {
+  background-color: none;
+  color: black;
+}
+
+.react-calendar__tile.highlight-due-date:hover {
+  background-color: none;
+  color: black;
+}
+
+abbr {
+  -webkit-text-decoration: none !important;
+  text-decoration: none !important;
+}
+.react-calendar__tile {
+  border: none !important;
+}
+.react-calendar__navigation__next2-button {
+  display: none !important  ;
+}
+.react-calendar__navigation__prev2-button {
+  display: none !important  ;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: white !important;
+}
+.react-calendar__month-view__days {
+  row-gap: 4px !important;
+}
+.react-calendar__tile--now {
+  background-color: white;
+  color: blue;
+}
+
+.highlight-return-date {
+  background-color: #38e54d;
+  color: white;
+  border-radius: 5px;
+}
+.highlight-rental-return-date {
+  background: linear-gradient(90deg, #5755fe 50%, #38e54d 50%);
+  color: white;
+  border-radius: 5px;
+}
+.highlight-rental-lost-date {
+  background: linear-gradient(90deg, #5755fe 50%, #ffbf00 50%);
+  color: white;
+  border-radius: 5px;
+}
+.highlight-lost-date {
+  background-color: #ffbf00;
+  color: white;
+  border-radius: 5px;
+}
