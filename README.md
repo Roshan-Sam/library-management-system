@@ -13,12 +13,14 @@ Library Management System is a React Django project where you can View, Purchase
 
 2. Install dependencies:
 
+   ```bash
     pip install -r requirements.txt
 
-3. Make sure MySQL is installed and running.
+4. Make sure MySQL is installed and running.
 
-4. Configure database settings in settings.py:
+5. Configure database settings in settings.py:
 
+   ```bash
     DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -30,30 +32,36 @@ Library Management System is a React Django project where you can View, Purchase
     }
 }
 
-5. Run database migrations:
+6. Run database migrations:
 
+   ```bash
     py manage.py makemigrations
     py manage.py migrate
 
-6. Run the Django server:
+7. Run the Django server:
 
+   ```bash
    py manage.py runserver
 
 ### Frontend
 
 1. Navigate to the client directory:
 
+   ```bash
     cd client\librarymanagement
 
 2. Initialize npm:
 
+   ```bash
    npm init -y
 
 3. Install dependencies:
 
+   ```bash
    npm install
 
 4. Start the development server:
 
+   ```bash
     npm run dev
 
