@@ -1,20 +1,25 @@
-LIBRARY MANAGEMENT SYSTEM
+# Library Management System
 
-Library Management System is a React Django project where you can View, Purchase and Borrow Books easily.
+Library Management System is a React Django project where you can View, Purchase, and Borrow Books easily.
 
-Installation
-Backend
-Navigate to the server directory:
+## Installation
 
-cd server\librarymanagement
-Install dependencies:
+### Backend
 
-pip install -r requirements.txt
-Make sure MySQL is installed and running.
+1. Navigate to the server directory:
 
-Configure database settings in settings.py:
+   ```bash
+   cd server\librarymanagement
 
-DATABASES = {
+2. Install dependencies:
+
+    pip install -r requirements.txt
+
+3. Make sure MySQL is installed and running.
+
+4. Configure database settings in settings.py:
+
+    DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'your_database_name',
@@ -24,23 +29,31 @@ DATABASES = {
         'PORT': '3306',
     }
 }
-Run database migrations:
 
-py manage.py makemigrations
-py manage.py migrate
-Run the Django server:
+5. Run database migrations:
 
-py manage.py runserver
-Frontend
-Navigate to the client directory:
+    py manage.py makemigrations
+    py manage.py migrate
 
-cd client\librarymanagement
-Initialize npm:
+6. Run the Django server:
 
-npm init -y
-Install dependencies:
+   py manage.py runserver
 
-npm install
-Start the development server:
+### Frontend
 
-npm run dev
+1. Navigate to the client directory:
+
+    cd client\librarymanagement
+
+2. Initialize npm:
+
+   npm init -y
+
+3. Install dependencies:
+
+   npm install
+
+4. Start the development server:
+
+    npm run dev
+
